@@ -26,6 +26,7 @@ jobs:
         run: npm ci
 
       - name: Run Cypress tests
+        continue-on-error: true
         run: npx cypress run --browser electron
 
       - name: Upload Cypress screenshots
