@@ -1,5 +1,11 @@
 # Automation Exercise - Cypress Tests
 
+## Assignment Submission Links
+
+- Hosted page: https://punya0908.github.io/QA-Engineering/
+- Repository: https://github.com/punya0908/QA-Engineering
+- CI runs: https://github.com/punya0908/QA-Engineering/actions
+
 The Automation Exercise [website](https://automationexercise.com/) is a full-fledged website built for atuomation practice purposes.
 
 This project aims to complete all the tests cases outlined in https://automationexercise.com/test_cases

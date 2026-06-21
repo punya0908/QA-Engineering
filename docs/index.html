@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QA Engineering Assignment</title>
+    <style>
+      :root {
+        --bg: #f4f7fb;
+        --card: #ffffff;
+        --ink: #16203a;
+        --muted: #52607d;
+        --accent: #0b65d8;
+        --accent-2: #0a8f6a;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", "Calibri", "Trebuchet MS", sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at 10% 20%, #e8f0ff 0%, transparent 40%),
+          radial-gradient(circle at 90% 10%, #e8fff8 0%, transparent 35%),
+          var(--bg);
+        min-height: 100vh;
+      }
+
+      .wrap {
+        max-width: 900px;
+        margin: 48px auto;
+        padding: 0 20px;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid #dbe3f2;
+        border-radius: 16px;
+        padding: 28px;
+        box-shadow: 0 10px 30px rgba(22, 32, 58, 0.08);
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: 2rem;
+      }
+
+      p {
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .links {
+        margin-top: 18px;
+        display: grid;
+        gap: 10px;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .meta {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .chip {
+        background: #edf4ff;
+        color: #1f3f73;
+        border: 1px solid #cfe0ff;
+        border-radius: 999px;
+        padding: 6px 10px;
+        font-size: 0.85rem;
+      }
+
+      .chip.green {
+        background: #e8fff8;
+        color: #0d5e49;
+        border-color: #b8f1df;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card">
+        <h1>QA Engineering Assignment</h1>
+        <p>
+          Automated Cypress test suite covering UI and API scenarios for
+          Automation Exercise. This page is hosted for assignment submission.
+        </p>
+
+        <div class="links">
+          <a href="https://github.com/punya0908/QA-Engineering" target="_blank" rel="noreferrer">View source code on GitHub</a>
+          <a href="https://github.com/punya0908/QA-Engineering/actions" target="_blank" rel="noreferrer">View CI test runs</a>
+        </div>
+
+        <div class="meta">
+          <span class="chip">Framework: Cypress</span>
+          <span class="chip">Coverage: UI + API</span>
+          <span class="chip green">Hosted: GitHub Pages</span>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
